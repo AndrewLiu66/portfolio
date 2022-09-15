@@ -21,10 +21,10 @@ $gray-800: #384C74 !default;
 $gray-900: #1B2A4E !default;
 $black: #161C2D !default;
 
-$primary: #335EEA !default;
-$secondary: $gray-700 !default;
+$primary: #0e41e8 !default;
+$secondary: $gray-800 !default;
 $primary-desat: #6C8AEC !default; // NEW
-$success: #42BA96 !default;
+$success: #198754 !default;
 $info: #7C69EF !default;
 $warning: #FAD776 !default;
 $danger: #DF4759 !default;
@@ -92,9 +92,9 @@ $spacers: map-merge(
     10: ($spacer * 5), // 80px
     11: ($spacer * 6), // 96px
     12: ($spacer * 8), // 128px
-    13: ($spacer * 10), // 160px 
+    13: ($spacer * 10), // 160px
     14: ($spacer * 12), // 192px
-    15: ($spacer * 16), // 256px                                                     
+    15: ($spacer * 16), // 256px
     16: ($spacer * 25), // 400px
   ),
   $spacers
@@ -134,7 +134,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1040px
+  xl: 1100px
 ) !default;
 /* beautify ignore:end */
 
@@ -758,7 +758,7 @@ $screenshot-box-shadow: 25px 60px 125px -25px fade-out($gray-700, .9), 16px 40px
 
 
 
-// 
+//
 // Utilities =====================================
 //
 
